@@ -21,7 +21,7 @@ Note: For a detailed description of the procedure and to view the repository, vi
   <img src="https://earthengine.google.com/static/images/earth-engine-logo.png" alt="geeapp_logo_png" width="200" />
 </div>
 
-## UI CSF.Ind
+## UI CSF.CM
 ![rs_2](https://github.com/user-attachments/assets/cb03d691-8fbf-4b08-af1b-cede16206391)
 
 ### 🚀 Overview
