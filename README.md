@@ -1,6 +1,6 @@
 # CSF.CM: Climate Smart Forestry (CSF) Composite Mapper (CSF-CM) 
 🌎⛰️🌳🌲 **CSF.CM** The Climate Smart Forestry (CSF) Composite Mapper (CSF-CM) is a user-friendly, Google Earth Engine (GEE)-based web app designed to generate composite CSF indicators using remote sensing data at scalable levels. The app allows users to combine maps from the adaptation, mitigation, and social dimensions, representing the three pillars of CSF, to evaluate the "smartness" score of the generated composite. The resulting composite indicator, scaled from 0 to 1, can be simultaneously generated for up to four geographically distant sampling areas, enabling users to assess smartness scores across different forest management contexts.
-![Image](https://github.com/user-attachments/assets/9813025b-d3e7-42c2-9896-eab0f32ce009)
+![Image](https://github.com/user-attachments/assets/a7a5c00e-1f7d-435f-a097-feefd461d3ef)
 
 ---
 ## 📚 Background and Access
