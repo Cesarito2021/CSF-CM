@@ -4,11 +4,9 @@
 
 ---
 ## 📚 Background and Access
-
-CSF.CM is a GEE web app that enables users to create aggregated and overlapped CSF composites without prior coding knowledge. To access the app, open the page link in a browser:
+CSF.CM is a GEE web app that enables users to create aggregated and overlapped CSF composites without prior coding knowledge. To access the app, open the page link in a browser (in progress).
 
 ## How to Access the Shiny App
-
 To view and interact with the GEE app, simply click the link below (in progress).
 To download an example dataset for computing growing stock indicators from multiple plots in the CSF.Ind web-based app, click (in progress). 
 To download the input data template for computing the CSF.Ind web-based app, click (in progress). 
