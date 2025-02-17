@@ -56,13 +56,13 @@ Users can select between two pillars:
 
 | CSF Pillar         | Indicator                            | Input Data                                        | Pixel-wise | Year       | Output                      |
 |--------------------|----------------------------------|-------------------------------------------------|------------|-----------|-----------------------------|
-| **Mitigation**     | **Carbon Stock**                 | Above Ground Biomass                            | 300m       | >2010     | Composite CSF index         |
+|                    | **Carbon Stock**                 | Above Ground Biomass                            | 300m       | >2010     | Composite CSF index         |
 |                    | **Soil Condition**               | Soil organic carbon content (g/kg)             | 250m       | <2018     |                             |
-|                    | **Forest Damage**                | Burned Area Pixel                              | 250m       | 2001      |                             |
+|   **Mitigation**   | **Forest Damage**                | Burned Area Pixel                              | 250m       | 2001      |                             |
 |                    | **Forest Area**                  | Global Forest Change                           | 30m        | <2023     |                             |
-| **Adaptation**     | **Tree Species Composition**     | Land Cover Type                                | 100m       | <2018     |                             |
+|                    | **Tree Species Composition**     | Land Cover Type                                | 100m       | <2018     |                             |
 |                    | **Naturalness**                  | Potential Natural Vegetation Biomes           | 1000m      | 2002      |                             |
-|                    | **Soil Condition**               | Digital Elevation Model, Slope, Aspect        | 30m        | 2015      |                             |
+|   **Adaptation**   | **Soil Condition**               | Digital Elevation Model, Slope, Aspect        | 30m        | 2015      |                             |
 |                    | **Age Structure & Diameter Dist.** | Canopy height (max and SD)                   | 10m        | 2018-2023 |                             |
 | **Social Dimension** | **Forest Damage**               | Global Human Modification                      | 1km²       | 2016      |                             |
 
@@ -70,13 +70,13 @@ Users can select between two pillars:
 Users can upload up to three layers (.GeoTIFF) containing the required geospatial data for the overlapped area. Refer to Table 1 in the app for specific example data requirements.
 
 #### Requested Data
-After uploading the geospatial data, the app will display some available geospatial datasets from GEE (see Table 1). Users can select the appropriate column names from a drop-down menu.
+After uploading the geospatial data, the app will display available geospatial datasets from GEE (see Table 1). Users can select some of these datasets to combine with the previously uploaded layer. Layers can be selected from a drop-down menu (e.g., layer1, layer2, etc.).
 
-#### Selection for Weight of Layers
-After setting the requested geospatial inputs, users can select a weighting score for each layer in the GEE app. The default is 1 if no modifications are made, but users can assign decimal values (e.g., 0.2 to indicate 20%).
+#### Setting the Weight for Layers
+After uploading and selecting geospatial data to combine, users can enter a weighting score for each layer in the GEE app. The default value is 1 if no modifications are made, but users can assign decimal values (e.g., 0.2 to indicate 20%).
 
 #### Download Outputs
-Users must select a directory before clicking 'Run' to save the geospatial CSF composite data.  
+Users must set the path and name where the CSF composite map will be saved before clicking 'Run' to store the geospatial CSF composite data.
 - **Download CSF composite (.GeoTIFF)**: Download a layer of combined maps.
 
 #### Run Analysis
